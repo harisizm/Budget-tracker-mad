@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Every colour the app uses lives here, by name. Layouts and the theme refer to
+    these names (@color/primary), never to raw hex values, so changing a colour in
+    one place changes it everywhere.
+-->
+<resources>
+    <!-- Brand colour: used for the splash, the budget card and the + button -->
+    <color name="primary">#00796B</color>
+    <!-- Darker shade of primary, for the status bar so it does not blend into the header -->
+    <color name="primary_dark">#00574B</color>
+    <!-- Pale teal for the checked Income/Expense toggle -->
+    <color name="primary_light">#B2DFDB</color>
+    <!-- Text and icons that sit on top of primary -->
+    <color name="on_primary">#FFFFFF</color>
+    <!-- Accent for small highlights -->
+    <color name="secondary">#26A69A</color>
+
+    <!-- Screen background, slightly grey so white cards stand out -->
+    <color name="background">#F4F6F8</color>
+    <!-- Card colour -->
+    <color name="surface">#FFFFFF</color>
+
+    <!-- Main text and lighter label text -->
+    <color name="text_primary">#1F2933</color>
+    <color name="text_secondary">#6B7A86</color>
+
+    <!-- Money colours: used to tint amounts in later labs -->
+    <color name="income">#2E7D32</color>
+    <color name="expense">#C62828</color>
+    <!-- Over-budget message in Lab 3 -->
+    <color name="warning">#EF6C00</color>
+</resources>

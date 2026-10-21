@@ -1,0 +1,25 @@
+<resources>
+    <!--
+        The theme tells Material which of our colours plays which role. Every
+        MaterialButton, MaterialCardView and TextInputLayout reads these roles, so
+        we never set colours on individual buttons.
+        NoActionBar: we draw our own headers in each layout instead of the default toolbar.
+    -->
+    <style name="Theme.BudgetTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <!-- Checked state of toggle buttons; Material's default is purple -->
+        <item name="colorSecondaryContainer">@color/primary_light</item>
+        <item name="colorOnSecondaryContainer">@color/primary_dark</item>
+        <item name="android:windowBackground">@color/background</item>
+        <!-- Material 3 tints raised cards with the primary colour; we want plain white cards -->
+        <item name="elevationOverlayEnabled">false</item>
+        <!-- Newer Android draws our layout under the status bar, so each layout uses
+             fitsSystemWindows on its header to leave room; this item keeps the icons white -->
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
+</resources>

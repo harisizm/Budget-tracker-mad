@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    All text shown on screen lives here, by name. Layouts use @string/name, so a
+    label is typed once and can be changed (or translated) in one place.
+-->
+<resources>
+    <string name="app_name">Budget Tracker</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline">Know where your money goes</string>
+
+    <!-- Home -->
+    <string name="home_title">Dashboard</string>
+    <string name="label_monthly_budget">Monthly Budget</string>
+    <string name="label_total_spent">Total Spent</string>
+    <string name="label_remaining">Remaining</string>
+    <!-- Sample amounts for Lab 1. Lab 2 and 3 replace them with real data. -->
+    <string name="sample_budget">Rs 20,000</string>
+    <string name="sample_spent">Rs 7,450</string>
+    <string name="sample_remaining">Rs 12,550</string>
+    <string name="recent_title">Recent transactions</string>
+    <string name="action_view_all">View all</string>
+    <string name="action_set_budget">Set budget</string>
+    <string name="action_add_transaction">Add transaction</string>
+
+    <!-- Transactions list -->
+    <string name="list_title">Transactions</string>
+    <string name="filter_all">All</string>
+    <string name="filter_income">Income</string>
+    <string name="filter_expense">Expense</string>
+    <string name="empty_title">Nothing here yet</string>
+    <string name="empty_message">Tap + on the dashboard to add your first transaction</string>
+
+    <!-- Add Transaction -->
+    <string name="add_title">Add Transaction</string>
+    <string name="type_income">Income</string>
+    <string name="type_expense">Expense</string>
+    <string name="hint_amount">Amount (Rs)</string>
+    <string name="error_amount_empty">Enter an amount</string>
+    <!-- The toggle swaps these labels so Income and Expense read differently -->
+    <string name="label_category_expense">Category</string>
+    <string name="label_category_income">Source</string>
+    <string name="hint_date_expense">Spent on (dd/mm/yyyy)</string>
+    <string name="hint_date_income">Received on (dd/mm/yyyy)</string>
+    <string name="hint_note">Note</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="toast_save_coming_soon">Saving comes in Lab 2</string>
+
+    <!-- Set Budget -->
+    <string name="budget_title">Set Budget</string>
+    <string name="label_current_budget">Current monthly budget</string>
+    <string name="hint_budget">New monthly budget (Rs)</string>
+    <string name="helper_budget">Your spending on the dashboard is compared against this amount</string>
+    <string name="toast_budget_coming_soon">Saving the budget comes in Lab 3</string>
+
+    <!-- Category lists for the spinner. Lab 2 reads the chosen one. -->
+    <string-array name="categories_expense">
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Shopping</item>
+        <item>Bills</item>
+        <item>Health</item>
+        <item>Entertainment</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="categories_income">
+        <item>Salary</item>
+        <item>Freelance</item>
+        <item>Pocket money</item>
+        <item>Gift</item>
+        <item>Other</item>
+    </string-array>
+</resources>
