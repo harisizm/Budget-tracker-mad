@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Wallet icon for the splash screen. Drawn as vector paths so it scales to any size. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="@color/on_primary"
+        android:pathData="M30,38 h48 a6,6 0 0 1 6,6 v26 a6,6 0 0 1 -6,6 h-48 a6,6 0 0 1 -6,-6 v-26 a6,6 0 0 1 6,-6 z" />
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M62,50 h16 v12 h-16 a6,6 0 0 1 0,-12 z" />
+</vector>
