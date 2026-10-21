@@ -1,0 +1,18 @@
+# Gradle / build output
+.gradle/
+build/
+/captures
+.externalNativeBuild
+.cxx
+
+# Machine-specific (Android Studio regenerates this; points at the local SDK)
+local.properties
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+.DS_Store
+
+# Crash dumps
+hs_err_pid*.log
+replay_pid*.log
