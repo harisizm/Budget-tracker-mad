@@ -29,6 +29,16 @@
             android:name=".AddTransactionActivity"
             android:exported="false"
             android:parentActivityName=".HomeActivity" />
+
+        <activity
+            android:name=".TransactionListActivity"
+            android:exported="false"
+            android:parentActivityName=".HomeActivity" />
+
+        <activity
+            android:name=".SetBudgetActivity"
+            android:exported="false"
+            android:parentActivityName=".HomeActivity" />
     </application>
 
 </manifest>
